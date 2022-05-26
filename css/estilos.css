@@ -60,13 +60,13 @@ body {
   /*width: 100px;
     height: 100px;
     float: inline-end;*/
-opacity: 20%;
+  opacity: 20%;
 
 
 
 }
 
-.cabecera__nav a:hover{
+.cabecera__nav a:hover {
   /*display: flex;
     flex-direction:row;
     justify-content: center;
@@ -86,16 +86,16 @@ opacity: 20%;
     margin-left: 50%;
     margin-top: 4%;*/
 
-    background-color: rgb(132, 179, 241);
+  background-color: rgb(132, 179, 241);
 }
 
- 
+
 
 /*CONTACTO*/
 main {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -193,17 +193,17 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   width: 15%;
- 
+
 }
 
 
 
 /*INDEX*/
-main {
+/*main {
   margin-left: 1%;
 
 
-}
+}*/
 
 .index {
   display: grid;
@@ -236,7 +236,7 @@ main {
 
 }
 
-.principal__imagen:hover {
+/*.principal__imagen:hover {
   width: 100wh;
   padding: 1%;
   margin-left: 10%;
@@ -245,10 +245,10 @@ main {
   transition:all 5s;
 
 
-}
+}*/
 
 .principal__imagen__def {
-  width: 100wh;
+  width: 100vw;
 
   display: block;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif text-align center
@@ -349,12 +349,12 @@ main {
   /*border: solid red;*/
 }
 
-.img__philippe{
+.img__philippe {
   display: flex;
   margin-left: 50px;
   margin-top: 50px;
   /*border: solid rgb(4, 0, 255);*/
- 
+
 }
 
 
