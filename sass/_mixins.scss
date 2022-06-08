@@ -1,0 +1,4 @@
+@mixin transform ($valor_transition, $valor_transform) {
+    transition: $valor_transition;
+    transform: $valor_transform;
+}

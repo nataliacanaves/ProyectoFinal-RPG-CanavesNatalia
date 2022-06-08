@@ -1,0 +1,7 @@
+.nav-color {
+    color: map-get($mapa-colores, celeste);
+}
+
+.nav-zoom:hover {
+    @include transform (2s, scale(1.3));
+}
